@@ -13,6 +13,10 @@ address__item .content {
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   padding: 92px 51px 89px;
+  width: 1100px;
+  height: 293px;
+  left: 0px;
+  top: 0px;
 }
 
 .header__links {
@@ -38,6 +42,45 @@ address__item .content {
 .header__link {
   font-size: 18px;
   white-space: nowrap;
+}
+
+.посмотретьлоты {
+  width: 149px;
+  height: 21px;
+  left: 148.48px;
+  top: 133px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.главная {
+  width: 67px;
+  height: 21px;
+  left: 50px;
+  top: 133px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.обаукционе {
+  width: 108px;
+  height: 21px;
+  left: 331.48px;
+  top: 133px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
 }
 
 .header__link_active {
