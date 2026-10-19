@@ -49,7 +49,10 @@
 
 .fe {
   justify-self: end;
-  gap: 184px;
+  padding-left: 184px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-top: 95px;
 }
 
 .address {
