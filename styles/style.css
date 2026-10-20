@@ -134,11 +134,13 @@ main {
 .aligned-text_center {
   line-height: 1.15;
   text-align: center;
+  text-indent: 30px;
 }
 
 .aligned-text_right {
   line-height: 1.15;
   text-align: right;
+  margin-right: -30px;
 }
 
 .letter-spacing-extended {
