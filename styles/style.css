@@ -135,6 +135,7 @@ main {
   line-height: 1.15;
   text-align: center;
   text-indent: 30px;
+  padding-top: 30px;
 }
 
 .aligned-text_right {
