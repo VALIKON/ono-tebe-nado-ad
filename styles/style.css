@@ -141,7 +141,7 @@ main {
 }
 
 .letter-spacing-extended {
-  letter-spacing: 35px;
+  letter-spacing: 33px;
   margin: 0;
 }
 
@@ -163,7 +163,7 @@ main {
 .cover__description-text {
   color: #fff;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27;
   text-transform: uppercase;
   word-spacing: 18px;
   display: flex;
@@ -181,6 +181,7 @@ main {
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
+  justify-content: flex-end;
 }
 
 .lots {
