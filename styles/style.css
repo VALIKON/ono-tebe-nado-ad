@@ -117,7 +117,6 @@ main {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   color: #fff;
   font-weight: bold;
   font-size: 100px;
@@ -131,17 +130,16 @@ main {
 }
 
 .aligned-text_center {
-  line-height: 1;
+  line-height: 1.15;
   text-align: center;
 }
 
 .aligned-text_right {
-  line-height: 1;
+  line-height: 1.15;
   text-align: right;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 33px;
   margin: 0;
 }
 
@@ -156,8 +154,8 @@ main {
   align-items: center;
   gap: 78px;
   padding: 136px 0 0;
-  width: 1000;
-  height: 51;
+  width: 1000px;
+  height: 51px;
 }
 
 .cover__description-text {
