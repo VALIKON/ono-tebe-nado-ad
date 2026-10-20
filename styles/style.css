@@ -108,13 +108,11 @@ main {
 .cover__title {
   position: relative;
   z-index: 1;
-  display: flex;
   flex-direction: column;
   color: #fff;
   font-weight: bold;
   font-size: 100px;
   line-height: 1.15;
-  letter-spacing: 30px;
   text-transform: uppercase;
 }
 
@@ -124,17 +122,14 @@ main {
 
 .aligned-text_center {
   text-align: center;
-  text-indent: 30px;
-  margin-top: 25px;
 }
 
 .aligned-text_right {
   text-align: right;
-  padding-top: 20px;
 }
 
 .letter-spacing-extended {
-  margin: 0;
+  letter-spacing: 30px;
 }
 
 .no-letter-spacing {
@@ -147,10 +142,10 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 78px;
+  gap: 50px;
   padding: 0;
   margin-top: auto;
-  width: 1000px;
+  width: 100%;
 }
 
 .cover__description-text {
@@ -185,7 +180,7 @@ main {
 }
 
 .lots__heading {
-  padding: 0px 0px 30px 25px;
+  padding: 0px 0px 30px 0px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
