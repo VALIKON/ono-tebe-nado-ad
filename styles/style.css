@@ -65,11 +65,6 @@ main {
 
 .header__address {
   justify-self: end;
-  gap: 184px;
-  width: 240px;
-  height: 98px;
-  left: 810px;
-  top: 95px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -189,9 +184,9 @@ main {
 }
 
 .lots {
-  padding: 180px 24px 120px 24px;
   width: 1052px;
-  height: 723px;
+  margin: 0 auto;
+  height: auto;
 }
 
 .lots__heading {
@@ -203,20 +198,22 @@ main {
 }
 
 .lots__card-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .lost__card-list-item {
-  height: 100%;
+  width: 334px;
+  height: 596px;
 }
 
 .card-link {
   display: block;
   height: 100%;
-  text-decoration: none;
 }
 
 .card {
@@ -250,7 +247,13 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.card_type_film,
+.card_type_book,
+.card_type_picture {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .card__title {
   position: relative;
   z-index: 2;
