@@ -6,11 +6,7 @@ main {
 
 .content-section {
   width: 100%;
-  margin: 0 auto;
-}
-
-.header__menu {
-  gap: 36px;
+  margin: 0px auto;
 }
 
 .header {
@@ -100,8 +96,8 @@ main {
 
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   z-index: 0;
   width: 100%;
   height: 100%;
@@ -180,12 +176,11 @@ main {
   text-transform: uppercase;
   background-color: transparent;
   cursor: pointer;
-  justify-content: flex-end;
 }
 
 .lots {
   width: 1052px;
-  margin: 0 auto;
+  margin: 0px auto;
   height: auto;
 }
 
@@ -202,11 +197,11 @@ main {
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
-.lost__card-list-item {
+.lots__card-list-item {
   width: 334px;
   height: 596px;
 }
@@ -232,28 +227,25 @@ main {
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.card_type_film,
-.card_type_book,
-.card_type_picture {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .card__title {
   position: relative;
   z-index: 2;
@@ -275,7 +267,7 @@ main {
 
 .lots__look-more-link {
   display: block;
-  margin: 30px 0 0 0px;
+  margin: 30px 0px 0px 0px;
   font-size: 20px;
   text-decoration-line: underline;
   text-underline-position: under;
@@ -286,7 +278,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
-  padding: 0 50px;
+  padding: 0px 50px;
 }
 
 .about__column {
@@ -312,7 +304,7 @@ main {
 }
 
 .about__title {
-  padding: 100px 0 104px;
+  padding: 100px 0px 104px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
