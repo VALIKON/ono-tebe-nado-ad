@@ -260,7 +260,7 @@ main {
 
 .lots__look-more-link {
   display: block;
-  margin: 50px 0 0 40px;
+  margin: 55px 0 0 40px;
   font-size: 20px;
   line-height: 1;
   text-decoration-line: underline;
@@ -277,10 +277,6 @@ main {
   padding-top: 133px;
 }
 
-.about__column {
-  justify-self: center;
-}
-
 .about__logo {
   display: flex;
   justify-content: center;
@@ -289,15 +285,19 @@ main {
   height: 240px;
   border-radius: 50%;
   background-color: #000000;
+  margin: 35px auto 0;
 }
 
 .about__logo-image {
   width: 148px;
   display: block;
 }
-
+.about__column {
+  display: flex;
+  flex-direction: column;
+}
 .about__title {
-  padding: 0 0 50px 0;
+  padding: 5px 0 98px 0;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -307,13 +307,12 @@ main {
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 30px;
 }
 
 .about__text p {
   font-size: 20px;
   line-height: 24px;
-  max-width: 688px;
 }
 
 .footer {
