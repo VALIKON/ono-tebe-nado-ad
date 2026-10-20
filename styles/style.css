@@ -53,28 +53,28 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.header__address {
-  justify-self: end;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
-  max-width: 250px;
+}
+
+.header__address {
+  justify-self: end;
+  max-width: 240px;
 }
 
 .address__item {
   display: block;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 24px;
   text-underline-position: under;
 }
 
 .address__address-text {
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 24px;
 }
 
 .cover {
