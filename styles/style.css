@@ -123,17 +123,13 @@ main {
 }
 
 .aligned-text_center {
-  line-height: 1.15;
   text-align: center;
   text-indent: 30px;
-  padding-top: 29px;
 }
 
 .aligned-text_right {
-  line-height: 1.15;
   text-align: right;
   padding-top: 20px;
-  padding-right: 15px;
 }
 
 .letter-spacing-extended {
@@ -188,7 +184,7 @@ main {
 }
 
 .lots__heading {
-  padding: 0px 0px 30px 25px;
+  padding: 0px 0px 30px 20px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
