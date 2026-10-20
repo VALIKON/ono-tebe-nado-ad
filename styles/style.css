@@ -173,6 +173,7 @@ main {
 .lots {
   width: 1052px;
   margin: 0 auto;
+  margin-bottom: 120px;
 }
 
 .lots__heading {
@@ -260,7 +261,7 @@ main {
 
 .lots__look-more-link {
   display: block;
-  margin: 55px 0 0 40px;
+  margin: 52px 0 0 40px;
   font-size: 20px;
   line-height: 1;
   text-decoration-line: underline;
@@ -274,7 +275,7 @@ main {
   column-gap: 25px;
   width: 1052px;
   margin: 0 auto;
-  padding-top: 133px;
+  padding-top: 0px;
 }
 
 .about__logo {
@@ -335,7 +336,7 @@ main {
 
 .footer__menu-link {
   font-size: 18px;
-  line-height: normal;
+  line-height: 24px;
   text-underline-position: under;
 }
 
