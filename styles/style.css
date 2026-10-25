@@ -67,8 +67,6 @@ main {
 
 .address__item {
   display: block;
-  font-size: 18px;
-  line-height: 24px;
   text-underline-position: under;
 }
 
