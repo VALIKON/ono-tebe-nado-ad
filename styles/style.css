@@ -3,7 +3,7 @@ main {
   flex-direction: column;
 }
 
-.content-section {
+.t-section {
   width: 100%;
   margin: 0 auto;
 }
@@ -119,16 +119,16 @@ main {
   margin-top: 0;
 }
 
+.aligned-text_left {
+  text-align: left;
+}
+
 .aligned-text_center {
   text-align: center;
 }
 
 .aligned-text_right {
   text-align: right;
-}
-
-.aligned-text_left {
-  text-align: left;
 }
 
 .letter-spacing-extended {
